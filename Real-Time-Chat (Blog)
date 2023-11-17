@@ -1,0 +1,27 @@
+CREATING A SIMPLE REAL-TIME-CHAT WITH PYTHON 
+
+Table of Contents 
+1. Introduction
+2. Socket Connection
+3. GUI Design with Tkinter
+4. Threading for message listening
+5. Sending and receiving messages
+6. Conclusion
+
+INTRODUCTION
+Real-time communication has become an essential component of many applications in today's fast-paced digital era.
+Real-time chat functionality is in high demand, whether in collaboration tools, customer service systems, or social networking platforms. 
+In this blog post, we'll look at how to create a real-time chat application with Python, a powerful and widely used programming language.
+
+SOCKET CONNECTION 
+The script uses Python's socket library to establish a connection between the client and a server. 
+The socket.socket(socket.AF_INET, socket.SOCK_STREAM) creates a socket object, specifying the use of IPv4 addresses (AF_INET) 
+and TCP packets for communication (SOCK_STREAM).
+The connect function attempts to connect to the server using the provided host address (HOST) and port number (PORT). 
+If successful, a message is printed to the console and displayed in the chat window. If unsuccessful, an error message is shown to the user.
+
+
+
+
+
+
